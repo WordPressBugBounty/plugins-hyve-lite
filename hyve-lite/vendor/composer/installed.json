@@ -2,23 +2,24 @@
     "packages": [
         {
             "name": "codeinwp/themeisle-sdk",
-            "version": "3.3.30",
-            "version_normalized": "3.3.30.0",
+            "version": "3.3.37",
+            "version_normalized": "3.3.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeinwp/themeisle-sdk.git",
-                "reference": "801a07604a297f02de3067948176f91b4c84bd8a"
+                "reference": "73e9010fb4e30ad8835f00a0df802733f98c4094"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/801a07604a297f02de3067948176f91b4c84bd8a",
-                "reference": "801a07604a297f02de3067948176f91b4c84bd8a",
+                "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/73e9010fb4e30ad8835f00a0df802733f98c4094",
+                "reference": "73e9010fb4e30ad8835f00a0df802733f98c4094",
                 "shasum": ""
             },
             "require-dev": {
-                "codeinwp/phpcs-ruleset": "dev-main"
+                "codeinwp/phpcs-ruleset": "dev-main",
+                "yoast/phpunit-polyfills": "^2.0"
             },
-            "time": "2024-09-10T23:53:07+00:00",
+            "time": "2024-11-06T14:44:53+00:00",
             "type": "library",
             "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
@@ -39,7 +40,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Codeinwp/themeisle-sdk/issues",
-                "source": "https://github.com/Codeinwp/themeisle-sdk/tree/v3.3.30"
+                "source": "https://github.com/Codeinwp/themeisle-sdk/tree/v3.3.37"
             },
             "install-path": "../codeinwp/themeisle-sdk"
         },
@@ -939,17 +940,17 @@
         },
         {
             "name": "yethee/tiktoken",
-            "version": "0.6.0",
-            "version_normalized": "0.6.0.0",
+            "version": "0.7.0",
+            "version_normalized": "0.7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yethee/tiktoken-php.git",
-                "reference": "780b87464b631ad3086660126eb6d4fb19d9fcfe"
+                "reference": "16fa1045ce83375db88d74d503bbc72ff0d86c9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yethee/tiktoken-php/zipball/780b87464b631ad3086660126eb6d4fb19d9fcfe",
-                "reference": "780b87464b631ad3086660126eb6d4fb19d9fcfe",
+                "url": "https://api.github.com/repos/yethee/tiktoken-php/zipball/16fa1045ce83375db88d74d503bbc72ff0d86c9e",
+                "reference": "16fa1045ce83375db88d74d503bbc72ff0d86c9e",
                 "shasum": ""
             },
             "require": {
@@ -962,9 +963,9 @@
                 "phpbench/phpbench": "^1.2",
                 "phpunit/phpunit": "^10.5.20",
                 "psalm/plugin-phpunit": "^0.19.0",
-                "vimeo/psalm": "5.25.0"
+                "vimeo/psalm": "5.26.1"
             },
-            "time": "2024-08-22T12:57:43+00:00",
+            "time": "2024-10-12T17:43:13+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -987,7 +988,7 @@
             ],
             "support": {
                 "issues": "https://github.com/yethee/tiktoken-php/issues",
-                "source": "https://github.com/yethee/tiktoken-php/tree/0.6.0"
+                "source": "https://github.com/yethee/tiktoken-php/tree/0.7.0"
             },
             "install-path": "../yethee/tiktoken"
         }

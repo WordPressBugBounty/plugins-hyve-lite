@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'codeinwp/hyve-lite',
-        'pretty_version' => '1.2.0',
-        'version' => '1.2.0.0',
+        'pretty_version' => '1.2.1',
+        'version' => '1.2.1.0',
         'reference' => null,
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
@@ -11,8 +11,8 @@
     ),
     'versions' => array(
         'codeinwp/hyve-lite' => array(
-            'pretty_version' => '1.2.0',
-            'version' => '1.2.0.0',
+            'pretty_version' => '1.2.1',
+            'version' => '1.2.1.0',
             'reference' => null,
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
@@ -20,9 +20,9 @@
             'dev_requirement' => false,
         ),
         'codeinwp/themeisle-sdk' => array(
-            'pretty_version' => '3.3.30',
-            'version' => '3.3.30.0',
-            'reference' => '801a07604a297f02de3067948176f91b4c84bd8a',
+            'pretty_version' => '3.3.37',
+            'version' => '3.3.37.0',
+            'reference' => '73e9010fb4e30ad8835f00a0df802733f98c4094',
             'type' => 'library',
             'install_path' => __DIR__ . '/../codeinwp/themeisle-sdk',
             'aliases' => array(),
@@ -191,9 +191,9 @@
             'dev_requirement' => false,
         ),
         'yethee/tiktoken' => array(
-            'pretty_version' => '0.6.0',
-            'version' => '0.6.0.0',
-            'reference' => '780b87464b631ad3086660126eb6d4fb19d9fcfe',
+            'pretty_version' => '0.7.0',
+            'version' => '0.7.0.0',
+            'reference' => '16fa1045ce83375db88d74d503bbc72ff0d86c9e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../yethee/tiktoken',
             'aliases' => array(),
