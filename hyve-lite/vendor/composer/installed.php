@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'codeinwp/hyve-lite',
-        'pretty_version' => '1.2.3',
-        'version' => '1.2.3.0',
+        'pretty_version' => '1.2.4',
+        'version' => '1.2.4.0',
         'reference' => null,
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
@@ -11,8 +11,8 @@
     ),
     'versions' => array(
         'codeinwp/hyve-lite' => array(
-            'pretty_version' => '1.2.3',
-            'version' => '1.2.3.0',
+            'pretty_version' => '1.2.4',
+            'version' => '1.2.4.0',
             'reference' => null,
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
@@ -20,9 +20,9 @@
             'dev_requirement' => false,
         ),
         'codeinwp/themeisle-sdk' => array(
-            'pretty_version' => '3.3.39',
-            'version' => '3.3.39.0',
-            'reference' => 'f98e239211697760333913fc729f9403ce2bd1e2',
+            'pretty_version' => '3.3.46',
+            'version' => '3.3.46.0',
+            'reference' => 'af2e7360bbe3af6a1bd2c3779fc33b7765104461',
             'type' => 'library',
             'install_path' => __DIR__ . '/../codeinwp/themeisle-sdk',
             'aliases' => array(),

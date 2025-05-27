@@ -105,7 +105,7 @@
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }/*
-! tailwindcss v3.4.15 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -519,8 +519,6 @@ video {
   margin-bottom: 1rem;
 }.mb-2 {
   margin-bottom: 0.5rem;
-}.mb-4 {
-  margin-bottom: 1rem;
 }.mb-\[revert\] {
   margin-bottom: revert;
 }.ml-3 {
@@ -543,8 +541,6 @@ video {
   display: flex;
 }.grid {
   display: grid;
-}.hidden {
-  display: none;
 }.h-10 {
   height: 2.5rem;
 }.h-12 {
@@ -881,7 +877,7 @@ video {
   transition-duration: 150ms;
 }.duration-75 {
   transition-duration: 75ms;
-}#wpcontent{padding:0}.components-panel__row{display:block;margin:0;padding:16px}.components-snackbar-list{bottom:.5rem;position:fixed;padding-left:1.5rem}.components-toggle-group-control{max-width:12rem}.components-color-palette__custom-color-text-wrapper{display:none}.hyve-chat-message p{font-size:13px}.hyve-chat-message h1,.hyve-chat-message h2,.hyve-chat-message h3,.hyve-chat-message h4,.hyve-chat-message h5,.hyve-chat-message h6{font-size:13px;margin-bottom:12px}.hyve-chat-message ol,.hyve-chat-message ul{padding-left:12px}.hyve-chat-message pre{background-color:#282c34;color:#abb2bf;padding:1em;border-radius:0;font-family:monospace;line-height:1.5;overflow-x:auto;white-space:pre;word-spacing:normal;margin:20px -10px}.hyve-chat-message pre *{color:#abb2bf;word-break:normal;word-wrap:normal}.hyve-chat-message pre ::selection{background-color:#3e4451}.hyve-chat-message pre ::before{content:attr(data-content)}.hyve-chat-message pre ::before:has(+:matches(function,const,return,let,var)){color:#c678dd}.hyve-chat-message code{background:#d0effb;border-radius:5px;border:none;padding:0 3px;color:#333}.hyve-banner:has(.tsdk-banner-cta){display:block}.hover\:bg-gray-100:hover {
+}#wpcontent{padding:0}.components-panel__row{display:block;margin:0;padding:16px}.components-snackbar-list{bottom:.5rem;position:fixed;padding-left:1.5rem}.components-toggle-group-control{max-width:12rem}.components-color-palette__custom-color-text-wrapper{display:none}.hyve-chat-message p{font-size:13px}.hyve-chat-message h1,.hyve-chat-message h2,.hyve-chat-message h3,.hyve-chat-message h4,.hyve-chat-message h5,.hyve-chat-message h6{font-size:13px;margin-bottom:12px}.hyve-chat-message ol,.hyve-chat-message ul{padding-left:12px}.hyve-chat-message pre{background-color:#282c34;color:#abb2bf;padding:1em;border-radius:0;font-family:monospace;line-height:1.5;overflow-x:auto;white-space:pre;word-spacing:normal;margin:20px -10px}.hyve-chat-message pre *{color:#abb2bf;word-break:normal;word-wrap:normal}.hyve-chat-message pre ::selection{background-color:#3e4451}.hyve-chat-message pre ::before{content:attr(data-content)}.hyve-chat-message pre ::before:has(+:matches(function,const,return,let,var)){color:#c678dd}.hyve-chat-message code{background:#d0effb;border-radius:5px;border:none;padding:0 3px;color:#333}div.notice.themeisle-sale{margin:0;margin-bottom:1rem}.hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
 }.hover\:text-gray-900:hover {
@@ -906,10 +902,6 @@ video {
   }
 }@media (min-width: 768px) {
 
-  .md\:mb-6 {
-    margin-bottom: 1.5rem;
-  }
-
   .md\:w-full {
     width: 100%;
   }
@@ -931,10 +923,6 @@ video {
     grid-column: span 4 / span 4;
   }
 }@media (min-width: 1536px) {
-
-  .\32xl\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
 
   .\32xl\:p-10 {
     padding: 2.5rem;
