@@ -6,17 +6,14 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Yethee\\Tiktoken\\' => array($vendorDir . '/yethee/tiktoken/src'),
+    'guttedgarden\\Tiktoken\\' => array($vendorDir . '/guttedgarden/tiktoken/src'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'ThemeIsle\\HyveLite\\' => array($baseDir . '/inc'),
-    'Symfony\\Contracts\\Service\\' => array($vendorDir . '/symfony/service-contracts'),
-    'Symfony\\Contracts\\HttpClient\\' => array($vendorDir . '/symfony/http-client-contracts'),
-    'Symfony\\Component\\HttpClient\\' => array($vendorDir . '/symfony/http-client'),
-    'Qdrant\\' => array($vendorDir . '/hkulekci/qdrant/src'),
-    'Psr\\Log\\' => array($vendorDir . '/psr/log/src'),
+    'Qdrant\\' => array($vendorDir . '/your1/qdrant/src'),
+    'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-factory/src', $vendorDir . '/psr/http-message/src'),
     'Psr\\Http\\Client\\' => array($vendorDir . '/psr/http-client/src'),
-    'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
-    'Nyholm\\Psr7\\' => array($vendorDir . '/nyholm/psr7/src'),
-    'Http\\Discovery\\' => array($vendorDir . '/php-http/discovery/src'),
+    'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
+    'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
+    'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
 );

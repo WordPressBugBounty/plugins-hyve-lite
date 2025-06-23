@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'codeinwp/hyve-lite',
-        'pretty_version' => '1.2.4',
-        'version' => '1.2.4.0',
+        'pretty_version' => '1.3.0',
+        'version' => '1.3.0.0',
         'reference' => null,
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
@@ -11,8 +11,8 @@
     ),
     'versions' => array(
         'codeinwp/hyve-lite' => array(
-            'pretty_version' => '1.2.4',
-            'version' => '1.2.4.0',
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
             'reference' => null,
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
@@ -28,57 +28,39 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'hkulekci/qdrant' => array(
-            'pretty_version' => 'v0.5.7',
-            'version' => '0.5.7.0',
-            'reference' => '0a9219682b7ec485f4528a233f3e36a1cb60d2b5',
+        'guttedgarden/tiktoken' => array(
+            'pretty_version' => '1.2.1',
+            'version' => '1.2.1.0',
+            'reference' => '859703018a6f5f25a1a6d7027986f86905520174',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../hkulekci/qdrant',
+            'install_path' => __DIR__ . '/../guttedgarden/tiktoken',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'nyholm/psr7' => array(
-            'pretty_version' => '1.8.2',
-            'version' => '1.8.2.0',
-            'reference' => 'a71f2b11690f4b24d099d6b16690a90ae14fc6f3',
+        'guzzlehttp/guzzle' => array(
+            'pretty_version' => '7.9.3',
+            'version' => '7.9.3.0',
+            'reference' => '7b2f29fe81dc4da0ca0ea7d42107a0845946ea77',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../nyholm/psr7',
+            'install_path' => __DIR__ . '/../guzzlehttp/guzzle',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'php-http/async-client-implementation' => array(
-            'dev_requirement' => false,
-            'provided' => array(
-                0 => '*',
-            ),
-        ),
-        'php-http/client-implementation' => array(
-            'dev_requirement' => false,
-            'provided' => array(
-                0 => '*',
-            ),
-        ),
-        'php-http/discovery' => array(
-            'pretty_version' => '1.20.0',
-            'version' => '1.20.0.0',
-            'reference' => '82fe4c73ef3363caed49ff8dd1539ba06044910d',
-            'type' => 'composer-plugin',
-            'install_path' => __DIR__ . '/../php-http/discovery',
+        'guzzlehttp/promises' => array(
+            'pretty_version' => '2.2.0',
+            'version' => '2.2.0.0',
+            'reference' => '7c69f28996b0a6920945dd20b3857e499d9ca96c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../guzzlehttp/promises',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'php-http/message-factory-implementation' => array(
-            'dev_requirement' => false,
-            'provided' => array(
-                0 => '1.0',
-            ),
-        ),
-        'psr/container' => array(
-            'pretty_version' => '2.0.2',
-            'version' => '2.0.2.0',
-            'reference' => 'c71ecc56dfe541dbd90c5360474fbc405f8d5963',
+        'guzzlehttp/psr7' => array(
+            'pretty_version' => '2.7.1',
+            'version' => '2.7.1.0',
+            'reference' => 'c2270caaabe631b3b44c85f99e5a04bbb8060d16',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../psr/container',
+            'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -94,8 +76,7 @@
         'psr/http-client-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '1.0',
+                0 => '1.0',
             ),
         ),
         'psr/http-factory' => array(
@@ -110,8 +91,7 @@
         'psr/http-factory-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '1.0',
+                0 => '1.0',
             ),
         ),
         'psr/http-message' => array(
@@ -126,58 +106,33 @@
         'psr/http-message-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '1.0',
+                0 => '1.0',
             ),
         ),
         'psr/log' => array(
-            'pretty_version' => '3.0.2',
-            'version' => '3.0.2.0',
-            'reference' => 'f16e1d5863e37f8d8c2a01719f5b34baa2b714d3',
+            'pretty_version' => '1.1.4',
+            'version' => '1.1.4.0',
+            'reference' => 'd49695b909c3b7628b6289db5479a1c204601f11',
             'type' => 'library',
             'install_path' => __DIR__ . '/../psr/log',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'ralouphie/getallheaders' => array(
+            'pretty_version' => '3.0.3',
+            'version' => '3.0.3.0',
+            'reference' => '120b605dfeb996808c31b6477290a714d356e822',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ralouphie/getallheaders',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'symfony/deprecation-contracts' => array(
-            'pretty_version' => 'v3.5.0',
-            'version' => '3.5.0.0',
-            'reference' => '0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1',
+            'pretty_version' => 'v2.5.4',
+            'version' => '2.5.4.0',
+            'reference' => '605389f2a7e5625f273b53960dc46aeaf9c62918',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/deprecation-contracts',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'symfony/http-client' => array(
-            'pretty_version' => 'v6.4.12',
-            'version' => '6.4.12.0',
-            'reference' => 'fbebfcce21084d3e91ea987ae5bdd8c71ff0fd56',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../symfony/http-client',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'symfony/http-client-contracts' => array(
-            'pretty_version' => 'v3.5.0',
-            'version' => '3.5.0.0',
-            'reference' => '20414d96f391677bf80078aa55baece78b82647d',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../symfony/http-client-contracts',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'symfony/http-client-implementation' => array(
-            'dev_requirement' => false,
-            'provided' => array(
-                0 => '3.0',
-            ),
-        ),
-        'symfony/service-contracts' => array(
-            'pretty_version' => 'v3.5.0',
-            'version' => '3.5.0.0',
-            'reference' => 'bd1d9e59a81d8fa4acdcea3f617c581f7475a80f',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../symfony/service-contracts',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -190,12 +145,12 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'yethee/tiktoken' => array(
-            'pretty_version' => '0.7.0',
-            'version' => '0.7.0.0',
-            'reference' => '16fa1045ce83375db88d74d503bbc72ff0d86c9e',
+        'your1/qdrant' => array(
+            'pretty_version' => '0.5.3',
+            'version' => '0.5.3.0',
+            'reference' => 'f6c761225ae2807c88490eaa3280ab95a26cb249',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../yethee/tiktoken',
+            'install_path' => __DIR__ . '/../your1/qdrant',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
