@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2e446c5d147699bcb595b4c696ba4f3a
+class ComposerStaticInit24efb89a5c7a992478f35e37acb6fd80
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -14,29 +14,29 @@ class ComposerStaticInit2e446c5d147699bcb595b4c696ba4f3a
     );
 
     public static $prefixLengthsPsr4 = array (
-        'g' => 
+        'g' =>
         array (
             'guttedgarden\\Tiktoken\\' => 22,
         ),
-        'W' => 
+        'W' =>
         array (
             'Webmozart\\Assert\\' => 17,
         ),
-        'T' => 
+        'T' =>
         array (
             'ThemeIsle\\HyveLite\\' => 19,
         ),
-        'Q' => 
+        'Q' =>
         array (
             'Qdrant\\' => 7,
         ),
-        'P' => 
+        'P' =>
         array (
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
         ),
-        'G' => 
+        'G' =>
         array (
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
@@ -45,44 +45,44 @@ class ComposerStaticInit2e446c5d147699bcb595b4c696ba4f3a
     );
 
     public static $prefixDirsPsr4 = array (
-        'guttedgarden\\Tiktoken\\' => 
+        'guttedgarden\\Tiktoken\\' =>
         array (
             0 => __DIR__ . '/..' . '/guttedgarden/tiktoken/src',
         ),
-        'Webmozart\\Assert\\' => 
+        'Webmozart\\Assert\\' =>
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
-        'ThemeIsle\\HyveLite\\' => 
+        'ThemeIsle\\HyveLite\\' =>
         array (
             0 => __DIR__ . '/../..' . '/inc',
         ),
-        'Qdrant\\' => 
+        'Qdrant\\' =>
         array (
             0 => __DIR__ . '/..' . '/your1/qdrant/src',
         ),
-        'Psr\\Log\\' => 
+        'Psr\\Log\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
-        'Psr\\Http\\Message\\' => 
+        'Psr\\Http\\Message\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
             1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
-        'Psr\\Http\\Client\\' => 
+        'Psr\\Http\\Client\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
-        'GuzzleHttp\\Psr7\\' => 
+        'GuzzleHttp\\Psr7\\' =>
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
         ),
-        'GuzzleHttp\\Promise\\' => 
+        'GuzzleHttp\\Promise\\' =>
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
         ),
-        'GuzzleHttp\\' => 
+        'GuzzleHttp\\' =>
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
@@ -95,9 +95,9 @@ class ComposerStaticInit2e446c5d147699bcb595b4c696ba4f3a
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2e446c5d147699bcb595b4c696ba4f3a::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2e446c5d147699bcb595b4c696ba4f3a::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit2e446c5d147699bcb595b4c696ba4f3a::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit24efb89a5c7a992478f35e37acb6fd80::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit24efb89a5c7a992478f35e37acb6fd80::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit24efb89a5c7a992478f35e37acb6fd80::$classMap;
 
         }, null, ClassLoader::class);
     }
