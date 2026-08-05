@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit24efb89a5c7a992478f35e37acb6fd80
+class ComposerStaticInitda3e0a9003acbadb89175339f2c6215d
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -17,6 +17,10 @@ class ComposerStaticInit24efb89a5c7a992478f35e37acb6fd80
         'g' =>
         array (
             'guttedgarden\\Tiktoken\\' => 22,
+        ),
+        'c' =>
+        array (
+            'cweagans\\Composer\\' => 18,
         ),
         'W' =>
         array (
@@ -48,6 +52,10 @@ class ComposerStaticInit24efb89a5c7a992478f35e37acb6fd80
         'guttedgarden\\Tiktoken\\' =>
         array (
             0 => __DIR__ . '/..' . '/guttedgarden/tiktoken/src',
+        ),
+        'cweagans\\Composer\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/cweagans/composer-patches/src',
         ),
         'Webmozart\\Assert\\' =>
         array (
@@ -95,9 +103,9 @@ class ComposerStaticInit24efb89a5c7a992478f35e37acb6fd80
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit24efb89a5c7a992478f35e37acb6fd80::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit24efb89a5c7a992478f35e37acb6fd80::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit24efb89a5c7a992478f35e37acb6fd80::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitda3e0a9003acbadb89175339f2c6215d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitda3e0a9003acbadb89175339f2c6215d::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitda3e0a9003acbadb89175339f2c6215d::$classMap;
 
         }, null, ClassLoader::class);
     }

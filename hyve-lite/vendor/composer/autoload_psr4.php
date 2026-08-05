@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'guttedgarden\\Tiktoken\\' => array($vendorDir . '/guttedgarden/tiktoken/src'),
+    'cweagans\\Composer\\' => array($vendorDir . '/cweagans/composer-patches/src'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'ThemeIsle\\HyveLite\\' => array($baseDir . '/inc'),
     'Qdrant\\' => array($vendorDir . '/your1/qdrant/src'),

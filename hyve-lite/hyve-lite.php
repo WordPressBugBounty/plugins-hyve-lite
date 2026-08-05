@@ -7,7 +7,7 @@
  * Plugin Name:         Hyve Lite
  * Plugin URI:          https://themeisle.com/plugins/hyve/
  * Description:         Hyve is an AI-powered chatbot that transforms your WordPress content into engaging conversations.
- * Version:             1.3.3
+ * Version:             2.0.0
  * Author:              ThemeIsle
  * Author URI:          https://themeisle.com
  * License:             GPL-3.0+
@@ -42,7 +42,7 @@ if ( version_compare( PHP_VERSION, '7.4', '<' ) ) {
 define( 'HYVE_LITE_BASEFILE', __FILE__ );
 define( 'HYVE_LITE_URL', plugins_url( '/', __FILE__ ) );
 define( 'HYVE_LITE_PATH', __DIR__ );
-define( 'HYVE_LITE_VERSION', '1.3.3' );
+define( 'HYVE_LITE_VERSION', '2.0.0' );
 define( 'HYVE_PRODUCT_SLUG', basename( HYVE_LITE_PATH ) );
 
 $vendor_file = HYVE_LITE_PATH . '/vendor/autoload.php';
@@ -60,9 +60,42 @@ add_filter(
 	}
 );
 
+add_filter(
+	HYVE_PRODUCT_SLUG . '_sdk_migrations_path',
+	function () {
+		return HYVE_LITE_PATH . '/migrations';
+	}
+);
+
+register_activation_hook(
+	__FILE__,
+	function () {
+		set_transient( 'hyve_lite_activation_redirect', 1, 30 );
+	}
+);
+
+add_action(
+	'admin_init',
+	function () {
+		if ( ! get_transient( 'hyve_lite_activation_redirect' ) ) {
+			return;
+		}
+
+		delete_transient( 'hyve_lite_activation_redirect' );
+
+		// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- Only detecting a bulk activation to skip the redirect; no state change.
+		if ( isset( $_GET['activate-multi'] ) || is_network_admin() || ! current_user_can( 'manage_options' ) ) {
+			return;
+		}
+
+		wp_safe_redirect( admin_url( 'admin.php?page=hyve' ) );
+		exit;
+	}
+);
+
 add_action(
 	'plugins_loaded',
 	function () {
 		new \ThemeIsle\HyveLite\Main();
-	} 
+	}
 );

@@ -45,6 +45,7 @@ class Response implements ArrayAccess
         return isset($this->raw[$offset]);
     }
 
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         return $this->raw[$offset];
